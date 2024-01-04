@@ -1,0 +1,36 @@
+{
+  "name": "jest-coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jquery": "^3.7.1"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 50,
+        "functions": 100,
+        "lines": 80,
+        "statements": 50
+      },
+      "api.js": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  }
+}
