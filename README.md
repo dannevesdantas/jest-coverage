@@ -1,4 +1,4 @@
-# jest-coverage
+# js-testing-with-jest
 Lessons from the JavaScript Testing with Jest: A TDD Approach book by Santosh Singh
 
 ![image](https://github.com/dannevesdantas/jest-coverage/assets/5115895/f2881533-6836-421b-9d89-110788a2cf36)
