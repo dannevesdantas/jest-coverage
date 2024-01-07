@@ -6,3 +6,4 @@ Lesson from the Code Coverage and Configuring Jest Code Coverage chapters, pages
 ```bash
 # unit tests
 $ npm test
+```
